@@ -2,7 +2,7 @@ set number
 
 syntax on
 
-colorscheme darkblue
+colorscheme monokai
 
 set mouse=a		" Mouse can navigate
 
@@ -23,4 +23,10 @@ set foldenable		" Enable folding
 
 :imap jk <Esc>
 
+call plug#begin('~/.vim/plugged')
+
+Plug 'crusoexia/vim-monokai'
+Plug 'pangloss/vim-javascript'
+
+call plug#end()
 
