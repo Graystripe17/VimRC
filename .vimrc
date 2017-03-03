@@ -21,6 +21,16 @@ set showmatch		" Highlight matching [{()}]
 
 set foldenable		" Enable folding
 
+" Status line highlighting Monokai
+" 272822 Sundried Clay
+" F92672 Pink Orchard
+" 66D9EF Bounded Rationality
+" A6E22E Henn1nk
+" FD971F Pumpkin Spice
+hi StatusLine                  ctermfg=3          ctermbg=272822     cterm=NONE
+hi StatusLineNC                ctermfg=272822     ctermbg=66D9EF     cterm=NONE
+
+
 :imap jk <Esc>
 
 call plug#begin('~/.vim/plugged')
