@@ -10,7 +10,7 @@ alias .3='cd ../../../'                     # Go back 3 directory levels
 alias .4='cd ../../../../'                  # Go back 4 directory levels
 alias .5='cd ../../../../../'               # Go back 5 directory levels
 alias .6='cd ../../../../../../'            # Go back 6 directory levels
-
+alias svim='sudo vim'
 
 GREEN="\[$(tput setaf 2)\]"
 BLUE="\[$(tput setaf 153)\]"
