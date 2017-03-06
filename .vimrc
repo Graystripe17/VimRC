@@ -30,6 +30,10 @@ set foldenable		" Enable folding
 hi StatusLine                  ctermfg=3          ctermbg=272822     cterm=NONE
 hi StatusLineNC                ctermfg=272822     ctermbg=66D9EF     cterm=NONE
 
+" Change cursor color
+set cursorline
+hi Cursor ctermbg=172
+hi CursorLine ctermbg=18
 
 :imap jk <Esc>
 
