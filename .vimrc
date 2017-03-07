@@ -34,8 +34,11 @@ hi StatusLineNC                ctermfg=272822     ctermbg=66D9EF     cterm=NONE
 set cursorline
 hi Cursor ctermbg=172
 hi CursorLine ctermbg=18
-
+hi CursorIM ctermbg=100
+" Add jk to esc
 :imap jk <Esc>
+" Enable copying out
+:vnoremap <C-c> :w !pbcopy<CR><CR>
 
 call plug#begin('~/.vim/plugged')
 
