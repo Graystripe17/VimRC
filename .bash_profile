@@ -11,6 +11,7 @@ alias .4='cd ../../../../'                  # Go back 4 directory levels
 alias .5='cd ../../../../../'               # Go back 5 directory levels
 alias .6='cd ../../../../../../'            # Go back 6 directory levels
 alias svim='sudo vim'
+alias vim='sudo vim'
 
 GREEN="\[$(tput setaf 2)\]"
 BLUE="\[$(tput setaf 153)\]"
@@ -49,3 +50,4 @@ PATH="/usr/local/bin/python3:$PATH"
 PATH="~/Library/Android/sdk/platform-tools:$PATH"
 PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:$PATH"
 export PATH
+
