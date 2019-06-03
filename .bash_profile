@@ -54,7 +54,7 @@ extract () {
 
 export GOPATH="/Users/kitty/Desktop/Code/Go"
 
-PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:$PATH"
+PATH="/usr/bin:/usr/sbin:/sbin:/usr/local/bin:/bin:/usr/X11/bin:$PATH"
 PATH="/usr/local/bin/python3:$PATH"
 PATH="~/Library/Android/sdk/platform-tools:$PATH"
 PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:$PATH"
