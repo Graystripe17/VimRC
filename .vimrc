@@ -41,6 +41,7 @@ set cursorline
 hi Cursor ctermbg=172
 hi CursorLine ctermbg=18
 hi CursorIM ctermbg=100
+set guicursor=i:ver25-iCursor
 " Add jk to esc
 :imap jk <Esc>
 " Enable copying out
