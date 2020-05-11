@@ -1,0 +1,42 @@
+{
+  "manifest": {
+    "name": "hyper-final-say",
+    "version": "1.2.1",
+    "description": "Allows local config overrides any plugin or theme settings.",
+    "main": "index.js",
+    "keywords": [
+      "hyper",
+      "hyper-plugin",
+      "configration",
+      "override",
+      "settings"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/amio/hyper-final-say.git"
+    },
+    "author": {
+      "name": "Amio",
+      "email": "amio.cn@gmail.com"
+    },
+    "license": "MIT",
+    "dependencies": {
+      "deep-assign": "^2.0.0"
+    },
+    "_registry": "npm",
+    "_loc": "/Users/kitty/.hyper_plugins/cache/v1/npm-hyper-final-say-1.2.1-a76e7f510349e8b634ed8ce1bc10b09793acdac7/package.json",
+    "readmeFilename": "README.md",
+    "readme": "# hyper-final-say [![][npm-badge]][npm-link]\n\nA [hyper](https://hyper.is) plugin allows user-set settings in `.hyper.js` overrides any plugin or theme defaults.\n\n### Install\n\n1. Open Hyper's preferences with `Cmd+,` (or manually at `~/.hyper.js`).\n2. Put `hyper-final-say` as **last one** of plugin list:\n  ```js\n  plugins: [\n    // 'hyper-plugin-xxx',\n    // 'hyper-theme-xxx',\n    'hyper-final-say'\n  ],\n  ```\n3. Fully reload Hyper (`Cmd+Shift+R`).\n\n### License\n\nMIT @ Amio\n\n[npm-badge]: https://img.shields.io/npm/v/hyper-final-say.svg?style=flat-square\n[npm-link]:  https://www.npmjs.com/package/hyper-final-say\n"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/hyper-final-say/-/hyper-final-say-1.2.1.tgz#a76e7f510349e8b634ed8ce1bc10b09793acdac7",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/hyper-final-say/-/hyper-final-say-1.2.1.tgz",
+    "hash": "a76e7f510349e8b634ed8ce1bc10b09793acdac7",
+    "registry": "npm",
+    "packageName": "hyper-final-say"
+  },
+  "registry": "npm",
+  "hash": "a76e7f510349e8b634ed8ce1bc10b09793acdac7"
+}

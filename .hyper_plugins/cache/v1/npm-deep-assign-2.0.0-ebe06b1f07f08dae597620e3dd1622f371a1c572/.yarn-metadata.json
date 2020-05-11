@@ -1,0 +1,72 @@
+{
+  "manifest": {
+    "name": "deep-assign",
+    "version": "2.0.0",
+    "description": "Recursive Object.assign()",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sindresorhus/deep-assign.git"
+    },
+    "author": {
+      "name": "Sindre Sorhus",
+      "email": "sindresorhus@gmail.com",
+      "url": "sindresorhus.com"
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "scripts": {
+      "test": "xo && ava"
+    },
+    "files": [
+      "index.js"
+    ],
+    "keywords": [
+      "object",
+      "obj",
+      "assign",
+      "extend",
+      "properties",
+      "merge",
+      "clone",
+      "copy",
+      "mixin",
+      "deep",
+      "recursive",
+      "key",
+      "keys",
+      "values",
+      "prop",
+      "properties"
+    ],
+    "dependencies": {
+      "is-obj": "^1.0.0"
+    },
+    "devDependencies": {
+      "ava": "*",
+      "xo": "*"
+    },
+    "xo": {
+      "ignores": [
+        "test.js"
+      ]
+    },
+    "_registry": "npm",
+    "_loc": "/Users/kitty/.hyper_plugins/cache/v1/npm-deep-assign-2.0.0-ebe06b1f07f08dae597620e3dd1622f371a1c572/package.json",
+    "readmeFilename": "readme.md",
+    "readme": "# deep-assign [![Build Status](https://travis-ci.org/sindresorhus/deep-assign.svg?branch=master)](https://travis-ci.org/sindresorhus/deep-assign)\n\n> Recursive [`Object.assign()`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)\n\n\n## Install\n\n```\n$ npm install --save deep-assign\n```\n\n\n## Usage\n\n```js\nvar deepAssign = require('deep-assign');\n\ndeepAssign({a: {b: 0}}, {a: {b: 1, c: 2}}, {a: {c: 3}});\n//=> {a: {b: 1, c: 3}}\n```\n\n\n### deepAssign(target, source, [source, ...])\n\nRecursively assigns own enumerable properties of `source` objects to the `target` object and returns the `target` object. Additional `source` objects will overwrite previous ones.\n\n\n## Related\n\n- [object-assign](https://github.com/sindresorhus/object-assign) - ES2015 Object.assign() ponyfill\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n",
+    "licenseText": "The MIT License (MIT)\n\nCopyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/deep-assign/-/deep-assign-2.0.0.tgz#ebe06b1f07f08dae597620e3dd1622f371a1c572",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/deep-assign/-/deep-assign-2.0.0.tgz",
+    "hash": "ebe06b1f07f08dae597620e3dd1622f371a1c572",
+    "registry": "npm",
+    "packageName": "deep-assign"
+  },
+  "registry": "npm",
+  "hash": "ebe06b1f07f08dae597620e3dd1622f371a1c572"
+}
